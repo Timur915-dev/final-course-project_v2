@@ -1,0 +1,12 @@
+Animation: 
+.our_tours img {
+    position: relative;
+    top: -35px;
+    transition: transform 0.3s ease, top 0.3s ease;
+}
+
+
+.our_tours img:hover {
+    transform: scale(1.1);
+    top: -40px;
+}
